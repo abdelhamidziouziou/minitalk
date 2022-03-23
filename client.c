@@ -6,7 +6,7 @@
 /*   By: abziouzi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/02 21:05:51 by abziouzi          #+#    #+#             */
-/*   Updated: 2022/03/23 22:20:30 by abziouzi         ###   ########.fr       */
+/*   Updated: 2022/03/23 22:56:18 by abziouzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int	main(int argc, char *argv[])
 		}
 	}
 	else
-		printf("Client : Invalid arguments.\n");
+		ft_putstr("Client : Invalid arguments.\n");
 	return (EXIT_FAILURE);
 }
 
